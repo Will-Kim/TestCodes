@@ -7,16 +7,15 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AccountBox
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.List
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Person
-import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Share
 import androidx.compose.material.icons.outlined.AccountBox
 import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.List
-import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.material.icons.outlined.Share
 import androidx.compose.material3.DrawerValue
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -70,10 +69,10 @@ class MainActivity : ComponentActivity() {
                         badgeCount = 9
                     ),
                     NavigationItem(
-                        title = "Setting",
-                        route = Screens.Setting.route,
-                        selectedIcon = Icons.Filled.Settings,
-                        unSelectedIcon = Icons.Outlined.Settings,
+                        title = "QRscanner",
+                        route = Screens.QRscanner.route,
+                        selectedIcon = Icons.Filled.AccountBox,
+                        unSelectedIcon = Icons.Outlined.AccountBox,
                     ),
                     NavigationItem(
                         title = "Share",

@@ -6,7 +6,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.appcognito.testcodes.screens.HomeScreen
-import com.appcognito.testcodes.screens.SettingScreen
+import com.appcognito.testcodes.screens.QRscanner
 import com.appcognito.testcodes.screens.MultipleImagePickerScreen
 import com.appcognito.testcodes.screens.ImagePickerScreen
 
@@ -31,8 +31,8 @@ fun SetUpNavGraph(
         composable(Screens.ImagePicker.route){
             ImagePickerScreen(innerPadding = innerPadding)
         }
-        composable(Screens.Setting.route){
-            SettingScreen(innerPadding = innerPadding)
+        composable(Screens.QRscanner.route){
+            QRscanner(innerPadding = innerPadding)
         }
     }
 }
